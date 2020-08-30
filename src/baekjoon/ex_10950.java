@@ -1,0 +1,25 @@
+package baekjoon;
+
+import java.util.Scanner;
+
+public class ex_10950 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int T = sc.nextInt();
+		
+		
+		for(int i=1; i<=T; i++) {
+			int a = sc.nextInt();
+			int b = sc.nextInt();
+			
+			System.out.println(a+b);
+		}
+		
+//		for(int T=sc.nextInt(); T-->0;) {
+//			System.out.println(sc.nextInt()+sc.nextInt());
+//		}
+	}
+
+}
